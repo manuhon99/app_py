@@ -1,4 +1,4 @@
-<h1 align="center"><img src="https://github.com/manuhon99/app_python/blob/main/static/logo.png" width="248"/></h1>
+<h1 align="center"><img src="https://github.com/manuhon99/app_py/blob/main/static/logo.png" width="248"/></h1>
 <p align="center">Aplicação web que coleta a localização de acesso do usuário e indica como marcador em um mapa</p>
 
 #### Features
