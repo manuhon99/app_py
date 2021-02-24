@@ -1,0 +1,89 @@
+@import url("navbar.css");
+
+
+body {
+    padding: 0;
+    margin: 0;
+}
+label {
+    font-size: 1rem !important;
+    color: darkgray !important;
+}
+
+.background{
+	background: #303030;
+    min-height: 100vh;
+    overflow: auto;
+}
+
+
+html, body {
+    height: 100%;
+    width: 100vw;
+}
+
+#map{
+    display: block;
+    margin-left: 8%;
+    width: 80%;
+    height: 512px;
+}
+
+#logo{
+    display: block;
+    margin: 20% auto;
+}
+
+#fb-root{
+    display: block;
+    margin: -5% 42%;
+}
+
+
+@media (max-width: 720px){
+    #fb-root{
+        display: block;
+        margin: -5% 28%;
+    }
+    
+    .fb-login-button{
+        margin: 0 auto;
+    }
+}
+
+h1, p{
+   color: rgba(245, 245, 245, 0.795) !important;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+}
+
+#listFormDiv, #userfield{
+    color: rgba(245, 245, 245, 0.795);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#form-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto auto;
+}
+
+.form-control{
+    background-color: rgba(245, 245, 245, 0.795); 
+}
+
+.btn{
+    background-color: rgba(245, 245, 245, 0.795); 
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    color: #303030;
+}
+
